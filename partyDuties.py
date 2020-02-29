@@ -60,21 +60,26 @@ while(inp != -1):
         for i,person in enumerate(people):
             print("{}: {}".format(i+1,person))
     if inp == 7:
-        numPeople = input("how many people do you need to work")
-        numResponsible = input("how many responsible people do you need")
+        numPeople = int(input("how many people do you need to work"))
+        numResponsible = int(input("how many responsible people do you need"))
         print("=========Regular==========")
         for i in range(numPeople):
             print("{}: {}".format(i+1,pick(people)))
         print("=========Responsible==========")
         for i in range(numResponsible):
             print("{}: {}".format(i+1,pick(responsible)))
-        countFile = open("runningCount.txt", "w+")
-        countFile.write(count)
+        with open("runningCount.txt", "w+") as countFile:
+            print(str(count))
+            countFile.write(str(count))
+            countFile.close()
     if inp == -1:
         print("Thanks")
         peopleFile.close()
         responsibleFile.close()
         countFile.close()
+
+
+
 
 
 

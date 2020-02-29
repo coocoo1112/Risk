@@ -1,1 +1,1 @@
-{"Kyle": 1, "Teddy S": 1, "James": 1, "Sam": 1, "Prosser": 1, "Teddy C": 1, "Chris": 1, "Sawyer": 0, "Benji": 1, "Hudson": 1, "Jared": 1, "Erik": 1, "Graham": 1, "Tyler": 1, "Nick": 1, "Brady": 1, "Andrew P": 1, "Andrew J": 1, "Fag Gay": 1}
+{'Kyle': 2, 'Teddy S': 2, 'James': 2, 'Sam': 2, 'Prosser': 2, 'Teddy C': 2, 'Chris': 2, 'Sawyer': 2, 'Benji': 1, 'Hudson': 2, 'Jared': 1, 'Erik': 2, 'Graham': 2, 'Tyler': 2, 'Nick': 2, 'Brady': 2, 'Andrew P': 2, 'Andrew J': 2, 'Fag Gay': 2}
